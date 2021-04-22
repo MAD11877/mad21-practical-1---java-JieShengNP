@@ -28,11 +28,11 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter the number of integers you are entering: ");
+    //System.out.print("Enter the number of integers you are entering: ");
     int total = in.nextInt();
     ArrayList<Integer> numberList = new ArrayList<Integer>(total);
     for(int i = 0; i < total; i++){
-      System.out.print("Enter #" + (i+1) + " number: ");
+      //System.out.print("Enter #" + (i+1) + " number: ");
       numberList.add(in.nextInt());
     }
     int maxCount = 0;
@@ -50,6 +50,7 @@ public class Question5
       }
       currentCount = 0;
     }
-    System.out.println("Highest occurence number: " + value);
+    //System.out.println("Highest occurence number: " + value);
+    System.out.println(value);
   }
 }
