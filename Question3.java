@@ -11,6 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter an integer to find the square of: ");
+    int number = in.nextInt();
+    System.out.println("The square of " + number + " is " + (number*number));
   }
 }
